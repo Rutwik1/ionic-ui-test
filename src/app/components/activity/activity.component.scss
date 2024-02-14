@@ -1,0 +1,77 @@
+.activity-section-1 {
+    margin-top: 1.5rem;
+}
+
+.activity-row-1 {
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.activity-col-1 ion-icon {
+    font-size: 23px;
+    color: #ffffffd2;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #AB48BC;
+}
+
+.activity-col-1 ion-label {
+    color: #ffffffd2;
+    font-size: 14px;
+}
+
+.activity-section-2 {
+    background-color: #3753866b;
+
+}
+
+.activity-row-2 {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.activity-col-2 ion-icon {
+    font-size: 30px;
+    color: #ffffffd2;
+}
+
+.activity-col-2 ion-label {
+    color: #ffffffd2;
+    font-size: 15px;
+}
+
+.activity-col-2:hover {
+    background-color: #AB48BC;
+    cursor: pointer;
+}
+
+.col-2-highlight {
+    background-color: #AB48BC;
+}
+
+.span-1 {
+    background-color: rgb(44, 186, 221);
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 4.5rem;
+    left: 3.5rem;
+
+}
+
+.span-2 {
+    background-color: rgba(252, 100, 54, 0.904);
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 4.5rem;
+    left: 3.5rem;
+}

@@ -1,0 +1,9 @@
+<ion-grid>
+  <ion-row style="justify-content: center;">
+    <ion-col size-md="4" size-sm="6" size-xl="4" size-xs="4" *ngFor="let item of galleryItems">
+      <ion-card class="square-container">
+        <ion-img [src]="item.image" alt="images" class="gallery-img"></ion-img>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>

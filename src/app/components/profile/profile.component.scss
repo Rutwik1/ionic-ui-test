@@ -1,0 +1,96 @@
+.profile-section {
+    margin-top: -1rem;
+}
+
+.profile-icons {
+    align-items: center;
+    margin-left: 0.65rem;
+    margin-right: 0.65rem;
+
+}
+
+.profile-row {
+    align-items: center;
+    text-align: center;
+
+}
+
+.profile-name h5 {
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.icon {
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0.6rem;
+}
+
+.profile-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2.5px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+
+.details-col-1 {
+    text-align: center;
+    color: white;
+}
+
+.details-col-2 {
+    text-align: center;
+    margin-top: -0.5rem;
+    color: rgba(255, 255, 255, 0.541);
+    font-size: 14px;
+    align-items: center;
+}
+
+.details-col-2 span {
+    padding-right: 0.5rem;
+}
+
+.location-icon {
+    position: relative;
+    top: 0.2rem;
+}
+
+.profile-grid {
+    margin-top: -0.8rem;
+}
+
+.checkmark-circle-icon {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(12, 199, 12);
+    background-color: #ffffff;
+    border-radius: 50%;
+    right: 3.1rem;
+    top: 4.1rem;
+}
+
+.row-2 {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.search-bar-item {
+    border: 0px solid #f0f2f5;
+    --background: #f0f2f5;
+    height: 80%;
+    border-radius: 8px;
+}
+
+.search-bar-input {
+    margin-top: -0.35rem;
+}
+
+.search-bar-icon {
+    margin-top: 0rem;
+}

@@ -1,0 +1,58 @@
+<section class="profile-section">
+
+  <ion-grid>
+    <ion-row class="profile-icons ">
+      <ion-col size-md="4" size-sm="4" size-xl="3" size-xs="12">
+        <ion-icon class="icon" name="menu-outline"></ion-icon>
+      </ion-col>
+      <ion-col size-md="4" size-sm="4" size-xl="6" size-xs="12" class="profile-name">
+        <h5>Profile</h5>
+      </ion-col>
+      <ion-col size-md="4" size-sm="4" size-xl="3" size-xs="12" style="text-align: right;" (click)="toggleSearchBar()">
+        <ion-icon class="icon" name="search-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid *ngIf="showSearchBar">
+    <ion-row style="justify-content: center;">
+      <ion-col size-md="12" size-sm="12" size-xl="10.3" size-xs="12">
+        <ion-item class="search-bar-item">
+          <ion-input class="search-bar-input" placeholder="Search or Start a new chat"></ion-input>
+          <ion-icon class="search-bar-icon" name="search-outline" slot="start"></ion-icon>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row class="profile-row row-2">
+      <ion-col size-md="4" size-sm="4" size-xl="3" size-xs="12">
+        <ion-icon class="icon" name="chevron-back-circle-outline"></ion-icon>
+      </ion-col>
+      <ion-col size-md="4" size-sm="4" size-xl="6" size-xs="12">
+        <img alt="images" src="/assets/pic.jpg" class="profile-img" />
+        <ion-icon class="checkmark-circle-icon" name="checkmark-circle"></ion-icon>
+      </ion-col>
+      <ion-col size-md="4" size-sm="4" size-xl="3" size-xs="12">
+        <ion-icon class="icon" name="chevron-forward-circle-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="ion-no-padding profile-grid">
+    <ion-row>
+      <ion-col class="details-col-1">
+        <h4>David Moore</h4>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="details-col-2">
+        <span class="margin-up">Sales Manager</span>
+        <span><ion-icon class="location-icon" name="location-outline"></ion-icon></span>
+        <span class="margin-up">Huston, USA</span>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</section>
