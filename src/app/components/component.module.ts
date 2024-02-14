@@ -9,10 +9,6 @@ import { ActivityComponent } from "./activity/activity.component";
 import { StatusComponent } from "./status/status.component";
 
 
-
-
-
-
 @NgModule({
     imports: [
         CommonModule,
